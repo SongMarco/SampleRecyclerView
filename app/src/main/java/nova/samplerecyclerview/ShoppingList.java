@@ -16,4 +16,11 @@ public class ShoppingList {
         sugar = "45g";
         salt= "48g";
     }
+
+    public ShoppingList(int id){
+        date = "num = "+String.valueOf(id);
+        cal = "13244Kcal";
+        sugar = "45g";
+        salt= "48g";
+    }
 }
